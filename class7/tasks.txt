@@ -1,0 +1,12 @@
+apply cv2.filter2d
+understand gaussian
+gaussian vs bilateral
+
+-1 in filter2D filter is applied individually on each channel
+any other value will result in 3d block
+
+gaussian blur is weighted mean with maximum weights near centre
+
+https://people.csail.mit.edu/sparis/bf_course/
+
+bilateral is a modification of the gaussian blur

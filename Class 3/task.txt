@@ -1,0 +1,26 @@
+gamma transform 
+log transform
+using +,-,/x
+
+image rotation
+image illumination
+
+
+Use filters on images
+noise blur // to train network for noise
+
+
+filters
+kernel size is chosen mostly odd 3x3
+filter mask
+kernel
+
+Alpha Trimmed Mean
+//sort and dont consider extreme low or high values by sorting and removing mins and maxs
+Mean
+Gaussian
+MIn
+Max
+Median
+
+

@@ -1,0 +1,5 @@
+1.Acceleration with cpp
+2.Acceleration with python 
+3.Augmentation based
+4.Feature extraction based
+5.Application formulation

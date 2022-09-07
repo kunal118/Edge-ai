@@ -1,0 +1,14 @@
+window has values or not
+
+COnvolution operation
+
+lowPass(smoothing filters) and highPass filters(sharpening filters)(edge detection)
+
+most of noise removed by low pass filtersedge filters L sebel prewitt kirsch canny
+low pass 
+mean
+gaussian
+weighted mean
+high pass
+ sobel 
+prewitt

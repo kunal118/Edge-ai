@@ -1,0 +1,18 @@
+1 Define kernel __global__
+2Specify number of threads & blocks
+3 Strides
+if number of threads are same as lenght of array then u can use 
+if (blockDIm.x*blockIdx*x+threadIdx.x < n)
+4.Page faults cudaMallocManaged(&a,size)
+cudaMemPrefetchAsynchronus(a,deviceId);
+5.Cuda streams
+
+fun<<blocks,threads>>(a,n);
+This runs in default streams
+
+like fun is called 5 times using for loop
+then functions are run one by one
+
+cudaStreamCreate(&s)
+fun<<blocks,threads,0,s>>(a,n) s here is stream
+U can run loops parallely

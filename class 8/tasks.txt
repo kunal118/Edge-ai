@@ -1,0 +1,50 @@
+Feature detection
+Camera->Preprocessing->feature detection
+
+Feature detection
+->Key point based(Select few points in the image and select features from around them)
+->Local features(dividing grid)
+->Global features .. Mean(dark images) Std deviation(constrast) skewness Kurtosis edge*(pixel based global feature)
+
+High pass filters for image sharpness
+Sharpened Image  = Image  + Edge detected image
+
+Transform based Feature
+DCT
+FFT(Fast fourier Transform)
+Gabor
+
+e^-(2*pi*t**2) class
+
+FFT(Fast fourier Transform)
+
+Frequency here is dif in pixel values
+Gabor (bakchod cheez)
+
+Local features
+LBP(texture information)
+Local Binary pattern(exam)
+
+
+22 33 100
+40 55 72
+11 03 07
+
+check what values are less than 55
+
+0 0 1
+0   1
+0 0 0
+calculate middle value by moving anticli=ockwise from middle right ele
+
+2**0 * 1 + 2**1 * 1 + 2**2 *0 ......2**7*0
+
+create a histogram of number of 0,1,2,3 ...255
+
+
+benefit of FFT
+take FFT
+
+
+
+

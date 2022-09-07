@@ -1,0 +1,2 @@
+image transformations are used  to create dataset by changing inllumination and angles 
+data augmentation 

@@ -1,0 +1,2 @@
+max median filters
+execute a face detection with camera images
